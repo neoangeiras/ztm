@@ -1,0 +1,64 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+body{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.todo {
+  width: 100%;
+  float: right;
+}
+
+input {
+  border-color: black;
+  padding-right: 200px;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  list-style: none;
+  padding: 5px 5px;
+  color: #ffffff;
+  border: 2px solid black;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background: #009900;
+  transition: all 0.75s;
+}
+
+.buttons {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+}
